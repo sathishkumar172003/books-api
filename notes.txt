@@ -1,0 +1,19 @@
+1. create the server and listen to port 5000
+
+2. design endpoints api/v1/books
+    
+    get - api/v1/books/ => all the books
+    get - api/v1/books/:id => get single book
+    post - api/v1/books/add/ => post a single book
+    put - api/v1/books/update/:id => update the existing book 
+    delete - api/v1/books/delete/:id => delete the existing book
+
+2. create the book model 
+
+    1.title
+    2. author
+    3. pub_date
+    4. isbn 
+    5. price
+
+3. create the controller and serve the request 
